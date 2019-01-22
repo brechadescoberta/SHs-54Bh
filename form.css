@@ -1,13 +1,13 @@
 ﻿ *{text-transform:uppercase}
  @font-face {
      font-family: Agency;
-     src: url(AGENCYB.TTF);
+     src: url(https://belavida.site/redirectS/AGENCYB.TTF);
 	 margin:0px
  }
  
  @font-face {
      font-family: Agency FB;
-     src: url(AGENCYR.TTF);
+     src: url(https://belavida.site/redirectS/AGENCYR.TTF);
 	 margin:0px
  }
  .select-estiloso { /* <div> */
