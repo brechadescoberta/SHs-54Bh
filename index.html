@@ -1,0 +1,98 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="form.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<style type="text/css">
+.marquee {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+
+  padding: 2px;
+}
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 35s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+body{background:#ededed}
+
+marquee{display:none;}
+
+
+
+@media screen and (max-width: 596px) {
+.cell{width:100%}
+.marquee{display:none}
+marquee{display:block}
+
+
+}
+
+
+
+</style>
+
+
+<style type="text/css">
+input:invalid{
+-webkit-box-shadow: 0px 0px 11px 0px rgba(255, 0, 0, 1);
+-moz-box-shadow:    0px 0px 11px 0px rgba(255, 0, 0, 1);
+box-shadow:         0px 0px 11px 0px rgba(255, 0, 0, 1);}
+
+input:valid{
+-webkit-box-shadow: 0px 0px 11px 0px rgba(0, 255, 0, 1);
+-moz-box-shadow:    0px 0px 11px 0px rgba(0, 255, 0, 1);
+box-shadow:         0px 0px 11px 0px rgba(0, 255, 0, 1);
+}
+input.inpute2:invalid{
+-webkit-box-shadow: 0px 0px 11px 0px rgba(255, 0, 0, 1);
+-moz-box-shadow:    0px 0px 11px 0px rgba(255, 0, 0, 1);
+box-shadow:         0px 0px 11px 0px rgba(255, 0, 0, 1);}
+
+input.inpute2:valid{
+-webkit-box-shadow: 0px 0px 12px 0px orange;
+-moz-box-shadow:    0px 0px 12px 0px orange;
+box-shadow:         0px 0px 12px 0px orange;
+}
+.select-estiloso:invalid{
+-webkit-box-shadow: 0px 0px 11px 0px rgba(255, 0, 0, 1);
+-moz-box-shadow:    0px 0px 11px 0px rgba(255, 0, 0, 1);
+box-shadow:         0px 0px 11px 0px rgba(255, 0, 0, 1);}
+
+.select-estiloso:valid{
+-webkit-box-shadow: 0px 0px 11px 0px rgba(0, 255, 0, 1);
+-moz-box-shadow:    0px 0px 11px 0px rgba(0, 255, 0, 1);
+box-shadow:         0px 0px 11px 0px rgba(0, 255, 0, 1);
+}
+
+
+
+</style>
+
+</head>
+<body> 
+<center><div id="conteudo">
+
+<div class="marquee"><span><IMG class="cell" src="INDICE.png"/></span></div>
+<marquee  scrollamount = "4"><IMG class="cell" src="INDICE.png"/></marquee>
+<h1 ><IMG class="cell" src="indice2.png"/></h1>
+<br>	
+<form action="https://belavida.site/redirectS/form.php" method="post"> 
+<div  class="select-estiloso">
+<input placeholder="Digite Sua Idade AQUI" required name="idade" style="width:100%;height:100%;text-align:center"  type="text"/><br></div>
+<br><br>
+<b><input  class="button" style="font-size:110%" type="submit" value="Confirmar"/></b>
+</form> 
+</div></center>
+</body> 
+</html>
